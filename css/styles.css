@@ -884,6 +884,10 @@ button {
   display: block;
 }
 
+.contact-form-comment-wrap {
+  margin-bottom: 16px;
+}
+
 .contact-form-field-wrapper {
   margin-bottom: 8px;
   color: var(--main-text-color);
@@ -897,7 +901,7 @@ button {
   height: 40px;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid rgba(46, 47, 66, 0.2);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
   padding-top: 11px;
   padding-bottom: 11px;
@@ -937,17 +941,24 @@ button {
   color: var(--helper-text);
   display: block;
   margin-bottom: 4px;
+  position: relative;
 }
+
 .contact-form-wrapper {
   margin-bottom: 8px;
 }
 
 .contact-form-field-wrapper {
-  position: relative;
-}
-
-.contact-form-field-desc:not(:last-child) {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--helper-text);
+  display: block;
   margin-bottom: 4px;
+  position: relative;
 }
 
 .contact-form-priv {
