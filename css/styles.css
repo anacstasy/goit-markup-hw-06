@@ -927,7 +927,7 @@ button {
   border: 1px solid #4d5ae5;
 }
 
-.contact-form-field-desc {
+.contact-form-field-lable {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -939,6 +939,10 @@ button {
 }
 .contact-form-wrapper {
   margin-bottom: 8px;
+}
+
+.contact-form-field-wrapper {
+  position: relative;
 }
 
 .contact-form-field-desc:not(:last-child) {
