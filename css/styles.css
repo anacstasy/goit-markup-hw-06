@@ -588,6 +588,14 @@ button {
   margin-bottom: 16px;
 }
 
+.newsletter {
+  display: flex;
+}
+
+.newslatter-subscribe-form-wrapper {
+  margin-right: 24px;
+}
+
 .subscribe-mail {
   min-width: 264px;
   height: 40px;
@@ -607,7 +615,6 @@ button {
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--primery-whitecolor);
-  margin-right: 24px;
 }
 .subscribe-mail::placeholder {
   font-family: 'Roboto', sans-serif;
