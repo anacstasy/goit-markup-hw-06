@@ -1057,10 +1057,13 @@ button {
   transition: opacity var(--transition-duration-and-func);
 }
 
-.contact-form-checkbox:checked + .contact-form-own-checkbox {
+.contact-form-checkbox:checked + .contact-form-svg-wrap {
   background-color: var(--pressed-state);
-  border: 1px solid #404bbf;
+  border: none;
+  fill: var(--primery-whitecolor);
+  border-color: var(--pressed-state);
 }
+
 .contact-form-checkbox:checked + .contact-form-own-checkbox .contact-form-checkmark-icon {
   opacity: 1;
 }
@@ -1073,4 +1076,8 @@ button {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.priv {
+  color: var(--accent-color);
 }
