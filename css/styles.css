@@ -993,10 +993,6 @@ button {
   fill: var(--accent-color);
 }
 
-.contact-form-label-wrapper {
-  margin-bottom: 24px;
-}
-
 .contact-form-svg-wrap {
   width: 16px;
   height: 16px;
