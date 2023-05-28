@@ -1057,7 +1057,7 @@ button {
   transition: opacity var(--transition-duration-and-func);
 }
 
-.contact-form-checkbox:checked + .contact-form-svg-wrap {
+.contact-form-checkbox:checked + .contact-form-checkbox-wrapper .contact-form-svg-wrap {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primery-whitecolor);
