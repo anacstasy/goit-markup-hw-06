@@ -1039,24 +1039,6 @@ button {
   background-color: var(--pressed-state);
 }
 
-.contact-form-own-checkbox {
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  padding: 4px 3px;
-  background-color: var(--primery-whitecolor);
-
-  transition: background-color var(--transition-duration-and-func);
-  cursor: pointer;
-  color: var(--secondary-bg-color);
-}
-
-.contact-form-checkmark-icon {
-  opacity: 0;
-
-  fill: currentColor;
-  transition: opacity var(--transition-duration-and-func);
-}
-
 .contact-form-checkbox:checked + .contact-form-checkbox-wrapper .contact-form-svg-wrap {
   background-color: var(--pressed-state);
   border: none;
